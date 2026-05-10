@@ -21,7 +21,7 @@ class AuthController extends Controller
             return response()->json(['error' => 'User not found'], 404);
         }
 
-        // plain password check (based on your setup)
+        
         if ($user->password !== $request->password) {
             return response()->json(['error' => 'Invalid credentials'], 401);
         }
