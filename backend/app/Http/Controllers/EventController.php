@@ -27,4 +27,3 @@ class EventController extends Controller
 
 
 
-?>
