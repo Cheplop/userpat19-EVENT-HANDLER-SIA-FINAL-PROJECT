@@ -22,7 +22,6 @@ class _EventListScreenState extends State<EventListScreen> {
   Timer? _refreshTimer;
 
   static const Color brandOrange = Color(0xFFFF6B35);
-  static const Color accentTeal = Color(0xFF4ACFAC);
 
   @override
   void initState() {
